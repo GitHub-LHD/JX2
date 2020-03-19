@@ -1,0 +1,50 @@
+{
+  "packages": [
+    {
+      "name": "Jeejio",
+      "maintainer": "Jeejio",
+      "websiteURL": "https://jeejio.com",
+      "email": "jeejio@jeejio.com",
+      "help": {
+        "online": "https://jeejio.com"
+      },     
+      "platforms": [
+        {
+          "name": "Jeejio Boards",
+          "architecture": "JX2",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/mengxiangren/JX2/raw/master/JX2-0.0.1.tar.gz",
+          "archiveFileName": "JX2-0.0.1.tar.gz",
+          "checksum": "SHA-256:4c0ad936e1d6a37584ac06ec8a431555fb24759665fb2d37f2c0d0c869fec1e9",
+          "size": "50183",
+          "boards": [
+            {"name": "JX2 Eval"}
+          ],
+          "toolsDependencies": [
+            {
+            	"packager": "Jeejio",
+              "name": "ri5cy_gnu_toolchain",
+              "version": "5.2.0"
+            }
+          ]          
+        }
+      ],
+      "tools": [
+        {
+          "name": "ri5cy_gnu_toolchain",
+          "version": "5.2.0",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://media.githubusercontent.com/media/mengxiangren/JX2/master/ri5cy_gnu_toolchain-5.2.0-linux64.tar.gz",
+              "archiveFileName": "ri5cy_gnu_toolchain-5.2.0-linux64.tar.gz",
+              "checksum": "SHA-256:0b4da1c188780c76dd2532cf96d0129dcd8c0f9e467f3e8d50994d0b6420950e",
+              "size": "189942850"           
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
